@@ -1,0 +1,121 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: #3e2c0f;
+}
+.container {
+  background-color: #eb405a;
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+#img {
+  height: 36px;
+  margin: 8px 20px;
+}
+
+#header {
+  height: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #aa1031;
+}
+.wrapper{
+  margin: 50px auto;
+  max-width: 800px; 
+  height: 315px;
+}
+.heading {
+  height: 40px;
+  width: 100%;
+  background-color: none;
+}
+.head {
+  display: flex;
+  width: 100%;
+}
+.input-area {
+  padding-left: 20px;
+  height: 40px;
+  width: 100%;
+  border-radius: 25px;
+  border-style: none;
+  outline: none;
+}
+#addBtn {
+  border-radius: 25px;
+  border-style: none;
+  width: 100px;
+}
+.task {
+  margin: 20px 0px 10px;
+}
+.item-list {
+  width: 100%;
+  height: inherit;
+  overflow-y: auto;
+}
+.item {
+  padding: 5px;
+  display: flex;
+  height: 30px;
+}
+.task-details {
+  padding: 5px 15px;
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #d8cf9d;
+  background-color: #f8b7c1;
+  outline: none;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+.btn {
+  /* background-color: yellow; */
+  border-style: none;
+  border-radius: 25px;
+  width: 70px;
+  margin-left: 10px;
+  height: inherit;
+  box-shadow: inset #3e2c0f 0 0 10px;
+}
+button {
+  background-color: #e5cb9f;
+  color: #3e2c0f;
+}
+button:hover {
+  transition: 0.3s;
+  background-color: #eee4ab;
+  cursor: pointer;
+}
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin: 10px 25px 10px 0px;
+}
+#search-input {
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 15px;
+  padding-right: 10px;
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: rgb(159, 33, 33);
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+
+}
+::-webkit-scrollbar-track{
+  background-color: #e490a2;;
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+#notes{
+  height: inherit;
+  overflow-y: auto;
+}
